@@ -699,7 +699,7 @@ local Library = {
                 Name = "\0",
                 Size = Size,
                 Position = Position,
-                BackgroundColor3 = Color3.fromRGB(166, 147, 243),
+                BackgroundColor3 =  Color3.fromRGB(220, 229, 247),
                 BackgroundTransparency = 1,
                 Text = "",
                 BorderSizePixel = 0,
@@ -2035,7 +2035,7 @@ local Library = {
             end
 
             local Window = {
-                Name = Params.Name or Params.name or '<font color="rgb(175, 102, 126)">ather.</font>hub',
+                Name = Params.Name or Params.name or '<font color="rgb(255, 255, 255)">ather.</font>hub',
                 Logo = Params.Logo or Params.logo or "rbxassetid://133218922939038",
 
                 IsOpen = true,
@@ -2685,7 +2685,7 @@ local Library = {
 
                 local ProgressBar = Instance.new("Frame")
                 ProgressBar.Name = "ProgressBar"
-                ProgressBar.BackgroundColor3 = Library.Theme and Library.Theme["Accent Start"] or Color3.fromRGB(175, 102, 126)
+                ProgressBar.BackgroundColor3 = Library.Theme and Library.Theme["Accent Start"] or Color3.fromRGB(220, 229, 247),
                 ProgressBar.Size = UDim2.new(1, 0, 1, 0)
                 ProgressBar.BorderSizePixel = 0
                 ProgressBar.Parent = ProgressBg
