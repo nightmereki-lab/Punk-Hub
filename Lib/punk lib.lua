@@ -2793,7 +2793,7 @@ local Library = {
                 end
             end)
 
-            Library.Windoww = Window
+            Library.Window = Window
             Window:Center()
             return setmetatable(Window, Library)
         end
