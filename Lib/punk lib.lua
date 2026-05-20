@@ -4125,7 +4125,7 @@ local Library = {
                     Name = "\0",
                     Color = ColorSequence.new{
                     ColorSequenceKeypoint.new(0, CColor3.fromRGB(220, 229, 247)),
-                    ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 229, 247))
+                    ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 229, 247)),
                 }
                 }):AddToTheme({Color = function()
                     return ColorSequence.new{ColorSequenceKeypoint.new(0, Library.Theme["Accent Start"]),ColorSequenceKeypoint.new(1, Library.Theme["Accent End"])}
