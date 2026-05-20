@@ -699,7 +699,7 @@ local Library = {
                 Name = "\0",
                 Size = Size,
                 Position = Position,
-                BackgroundColor3 =  Color3.fromRGB(220, 229, 247),
+                BackgroundColor3 = Color3.fromRGB(220, 229, 247),
                 BackgroundTransparency = 1,
                 Text = "",
                 BorderSizePixel = 0,
@@ -2122,8 +2122,8 @@ local Library = {
                     Parent = Items["Logo"].Instance,
                     Name = "\0",
                     Color = ColorSequence.new{
-                    ColorSequenceKeypoint.new(0, Color3.fromRGB(175, 102, 126)),
-                    ColorSequenceKeypoint.new(1, Color3.fromRGB(114, 75, 130))
+                    ColorSequenceKeypoint.new(0, Color3.fromRGB(220, 229, 247)),
+                    ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 229, 247)),
                 }
                 }):AddToTheme({Color = function()
                     return ColorSequence.new{ColorSequenceKeypoint.new(0, Library.Theme["Accent Start"]),ColorSequenceKeypoint.new(1, Library.Theme["Accent End"])}
@@ -2163,8 +2163,8 @@ local Library = {
                     Parent = Items["_"].Instance,
                     Name = "\0",
                     Color = ColorSequence.new{
-                    ColorSequenceKeypoint.new(0, Color3.fromRGB(175, 102, 126)),
-                    ColorSequenceKeypoint.new(1, Color3.fromRGB(114, 75, 130))
+                    ColorSequenceKeypoint.new(0, Color3.fromRGB(220, 229, 247)),
+                    ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 229, 247))
                     }
                 }):AddToTheme({Color = function()
                     return ColorSequence.new{ColorSequenceKeypoint.new(0, Library.Theme["Accent Start"]),ColorSequenceKeypoint.new(1, Library.Theme["Accent End"])}
@@ -2488,8 +2488,8 @@ local Library = {
                             Parent = ButtonItems["ButtonBackground"].Instance,
                             Name = "\0",
                             Color = ColorSequence.new{
-                            ColorSequenceKeypoint.new(0, Color3.fromRGB(175, 102, 126)),
-                            ColorSequenceKeypoint.new(1, Color3.fromRGB(114, 75, 130))
+                            ColorSequenceKeypoint.new(0, Color3.fromRGB(220, 229, 247)),
+                            ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 229, 247))
                         }
                         }):AddToTheme({Color = function()
                             return ColorSequence.new{ColorSequenceKeypoint.new(0, Library.Theme["Accent Start"]),ColorSequenceKeypoint.new(1, Library.Theme["Accent End"])}
@@ -2685,15 +2685,15 @@ local Library = {
 
                 local ProgressBar = Instance.new("Frame")
                 ProgressBar.Name = "ProgressBar"
-                ProgressBar.BackgroundColor3 = Library.Theme and Library.Theme["Accent Start"] or Color3.fromRGB(220, 229, 247),
+                ProgressBar.BackgroundColor3 = Library.Theme and Library.Theme["Accent Start"] or Color3.fromRGB(220, 229, 247)
                 ProgressBar.Size = UDim2.new(1, 0, 1, 0)
                 ProgressBar.BorderSizePixel = 0
                 ProgressBar.Parent = ProgressBg
 
                 local ProgressGradient = Instance.new("UIGradient")
                 ProgressGradient.Color = ColorSequence.new{
-                    ColorSequenceKeypoint.new(0, Library.Theme and Library.Theme["Accent Start"] or Color3.fromRGB(175, 102, 126)),
-                    ColorSequenceKeypoint.new(1, Library.Theme and Library.Theme["Accent End"] or Color3.fromRGB(114, 75, 130))
+                    ColorSequenceKeypoint.new(0, Library.Theme and Library.Theme["Accent Start"] or Color3.fromRGB(220, 229, 247)),
+                    ColorSequenceKeypoint.new(1, Library.Theme and Library.Theme["Accent End"] or Color3.fromRGB(220, 229, 247))
                 }
                 ProgressGradient.Parent = ProgressBar
 
@@ -2793,7 +2793,7 @@ local Library = {
                 end
             end)
 
-            Library.Window = Window
+            Library.Windoww = Window
             Window:Center()
             return setmetatable(Window, Library)
         end
@@ -2866,8 +2866,8 @@ local Library = {
                     Name = "\0",
                     Enabled = false,
                     Color = ColorSequence.new{
-                    ColorSequenceKeypoint.new(0, Color3.fromRGB(175, 102, 126)),
-                    ColorSequenceKeypoint.new(1, Color3.fromRGB(114, 75, 130))
+                    ColorSequenceKeypoint.new(0, Color3.fromRGB(220, 229, 247)),
+                    ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 229, 247))
                 }
                 }):AddToTheme({Color = function()
                     return ColorSequence.new{ColorSequenceKeypoint.new(0, Library.Theme["Accent Start"]),ColorSequenceKeypoint.new(1, Library.Theme["Accent End"])}
@@ -3274,8 +3274,8 @@ local Library = {
                     Name = "\0",
                     Enabled = false,
                     Color = ColorSequence.new{
-                    ColorSequenceKeypoint.new(0, Color3.fromRGB(175, 102, 126)),
-                    ColorSequenceKeypoint.new(1, Color3.fromRGB(114, 75, 130))
+                    ColorSequenceKeypoint.new(0, Color3.fromRGB(220, 229, 247)),
+                    ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 229, 247))
                 }
                 }):AddToTheme({Color = function()
                     return ColorSequence.new{ColorSequenceKeypoint.new(0, Library.Theme["Accent Start"]),ColorSequenceKeypoint.new(1, Library.Theme["Accent End"])}
@@ -3302,8 +3302,8 @@ local Library = {
                     Parent = Items["Shadow"].Instance,
                     Name = "\0",
                     Color = ColorSequence.new{
-                    ColorSequenceKeypoint.new(0, Color3.fromRGB(175, 102, 126)),
-                    ColorSequenceKeypoint.new(1, Color3.fromRGB(114, 75, 130))
+                    ColorSequenceKeypoint.new(0, Color3.fromRGB(220, 229, 247)),
+                    ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 229, 247))
                 }
                 }):AddToTheme({Color = function()
                     return ColorSequence.new{ColorSequenceKeypoint.new(0, Library.Theme["Accent Start"]),ColorSequenceKeypoint.new(1, Library.Theme["Accent End"])}
@@ -3336,8 +3336,8 @@ local Library = {
                         Name = "\0",
                         Enabled = false,
                         Color = ColorSequence.new{
-                            ColorSequenceKeypoint.new(0, Color3.fromRGB(175, 102, 126)),
-                            ColorSequenceKeypoint.new(1, Color3.fromRGB(114, 75, 130))
+                            ColorSequenceKeypoint.new(0, Color3.fromRGB(220, 229, 247)),
+                            ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 229, 247))
                         }
                     }):AddToTheme({Color = function()
                         return ColorSequence.new{ColorSequenceKeypoint.new(0, Library.Theme["Accent Start"]),ColorSequenceKeypoint.new(1, Library.Theme["Accent End"])}
@@ -3750,8 +3750,8 @@ local Library = {
                     Parent = Items["Inline"].Instance,
                     Name = "\0",
                     Color = ColorSequence.new{
-                    ColorSequenceKeypoint.new(0, Color3.fromRGB(175, 102, 126)),
-                    ColorSequenceKeypoint.new(1, Color3.fromRGB(114, 75, 130))
+                    ColorSequenceKeypoint.new(0, Color3.fromRGB(220, 229, 247)),
+                    ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 229, 247))
                 }
                 }):AddToTheme({Color = function()
                     return ColorSequence.new{ColorSequenceKeypoint.new(0, Library.Theme["Accent Start"]),ColorSequenceKeypoint.new(1, Library.Theme["Accent End"])}
@@ -4124,8 +4124,8 @@ local Library = {
                     Parent = Items["ButtonBackground"].Instance,
                     Name = "\0",
                     Color = ColorSequence.new{
-                    ColorSequenceKeypoint.new(0, Color3.fromRGB(175, 102, 126)),
-                    ColorSequenceKeypoint.new(1, Color3.fromRGB(114, 75, 130))
+                    ColorSequenceKeypoint.new(0, CColor3.fromRGB(220, 229, 247)),
+                    ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 229, 247))
                 }
                 }):AddToTheme({Color = function()
                     return ColorSequence.new{ColorSequenceKeypoint.new(0, Library.Theme["Accent Start"]),ColorSequenceKeypoint.new(1, Library.Theme["Accent End"])}
@@ -4321,8 +4321,8 @@ local Library = {
                     Parent = Items["Accent"].Instance,
                     Name = "\0",
                     Color = ColorSequence.new{
-                    ColorSequenceKeypoint.new(0, Color3.fromRGB(175, 102, 126)),
-                    ColorSequenceKeypoint.new(1, Color3.fromRGB(114, 75, 130))
+                    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
+                    ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))
                 }
                 }):AddToTheme({Color = function()
                     return ColorSequence.new{ColorSequenceKeypoint.new(0, Library.Theme["Accent Start"]),ColorSequenceKeypoint.new(1, Library.Theme["Accent End"])}
@@ -4622,8 +4622,8 @@ local Library = {
                     Parent = Items["DropdownBackground"].Instance,
                     Name = "\0",
                     Color = ColorSequence.new{
-                    ColorSequenceKeypoint.new(0, Color3.fromRGB(175, 102, 126)),
-                    ColorSequenceKeypoint.new(1, Color3.fromRGB(114, 75, 130))
+                    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
+                    ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 229, 247))
                 }
                 }):AddToTheme({Color = function()
                     return ColorSequence.new{ColorSequenceKeypoint.new(0, Library.Theme["Accent Start"]),ColorSequenceKeypoint.new(1, Library.Theme["Accent End"])}
@@ -4767,7 +4767,7 @@ local Library = {
                     AutomaticCanvasSize = Enum.AutomaticSize.Y,
                     BorderSizePixel = 0,
                     CanvasSize = UDim2.new(0, 0, 0, 0),
-                    ScrollBarImageColor3 = Color3.fromRGB(175, 102, 126),
+                    ScrollBarImageColor3 = Color3.fromRGB(220, 229, 247),
                     MidImage = "rbxassetid://81680855285439",
                     BorderColor3 = Color3.fromRGB(0, 0, 0),
                     ScrollBarThickness = 2,
@@ -4878,8 +4878,8 @@ local Library = {
                     Parent = OptionBackground.Instance,
                     Name = "\0",
                     Color = ColorSequence.new{
-                    ColorSequenceKeypoint.new(0, Color3.fromRGB(175, 102, 126)),
-                    ColorSequenceKeypoint.new(1, Color3.fromRGB(114, 75, 130))
+                    ColorSequenceKeypoint.new(0, Color3.fromRGB(220, 229, 247)),
+                    ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 229, 247))
                 }
                 }):AddToTheme({Color = function()
                     return ColorSequence.new{ColorSequenceKeypoint.new(0, Library.Theme["Accent Start"]),ColorSequenceKeypoint.new(1, Library.Theme["Accent End"])}
@@ -5441,8 +5441,8 @@ local Library = {
                     Parent = Items["Background"].Instance,
                     Name = "\0",
                     Color = ColorSequence.new{
-                    ColorSequenceKeypoint.new(0, Color3.fromRGB(175, 102, 126)),
-                    ColorSequenceKeypoint.new(1, Color3.fromRGB(114, 75, 130))
+                    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
+                    ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 229, 247))
                 }
                 }):AddToTheme({Color = function()
                     return ColorSequence.new{ColorSequenceKeypoint.new(0, Library.Theme["Accent Start"]),ColorSequenceKeypoint.new(1, Library.Theme["Accent End"])}
